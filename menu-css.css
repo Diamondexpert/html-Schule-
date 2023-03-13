@@ -1,0 +1,47 @@
+                                             /*inspieriert von code-crowd.de*/
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+.menü {
+         background-color: white;  /*Hier habe ich die Hintergrundfarbe des Menüs festgelegt*/
+         height: 100px;      /*Die größe des Menüs generell*/
+         margin-left: 10%;
+         margin-right: 10%;    /*dieser Bereich beschreibt die Position vom rechten und linken Rand des Bildschirms*/
+}
+
+nav ul {
+         list-style: none;
+         padding: 10;   /*diese Zeile verändert die Größe des paddings vom menü*/
+         margin: 0;       /*"*/
+}
+
+nav {
+
+         margin: 10;           /*Hier wird die Umrandung des navs vergrößert, wodurch das Menü einen größeren abstand zum Rand bekommt*/
+         background: white;
+         margin-left: 0%;       /*Die Position des Navs auf der x Achse*/
+         margin-right: 0%;
+         box-shadow: 10px 20px 15px silver;   /*Hier hab ich wieder meine Schattierung hinzugefügt*/
+         border-radius: 10px;      /*an dieser stelle wird der Radius für die Umrandung festgelegt*/
+         position: fixed;   /*und hier wird das Menü fixiert, heißt es bewegt sich nicht beim scrollen */
+}
+
+li {
+         display: inline; /*Dieses Script sorgt dafür, dass das Menü in einer Linie aufgebaut ist und nicht untereinander*/
+         padding: 1px;
+}
+
+nav a {
+         text-decoration: none;      /*Dadurch sind die Links im Menü nicht unterstrichen*/
+         color: black;                /*Farbe der schrift ist schwarz*/
+         padding-top: 15px;
+         padding-right: 60px;          /*Mit diesen Beiden Befehlen wird die position der Links im Menü angegeben*/
+         font-family: Montserrat, sans-serif;    /*Die schriftart wurde hier verändert*/
+}
+
+nav a:hover {
+         color: grey;       /*Dort wird die Farbe, wenn man auf den Link druckt, grau*/
+}
+
+nav a:active {
+         font-weight: bold;       /*Diese Zeile sorgt dafür, dass der Link sich beim Klicken leicht eindrück*/
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------*/

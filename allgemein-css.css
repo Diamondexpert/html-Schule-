@@ -1,0 +1,24 @@
+body {
+         margin: 5;
+         padding: 5;
+         font-family: Corbel;     /*Insgesamt die Schriftart auf Corbel gestellt*/
+         background-size: 300px;   /*Hier habe ich das Hintergrund bild angepasst*/
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+img#Bild {
+         float: right; /*An dieser Stelle habe ich mein Logo nach Links geschoben*/
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+#inhalt {
+         position: left;    /*links positioniert*/
+         float: left;
+         position: fixed;    /*mit position: fixed konnte ich mein Inhaltsverzeichnis fixieren,, damit es nicht beim scrollen verschwindet*/
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+h1      {
+         font-family: Corbel;        /*Die Schriftart meiner Überschriften mit h1*/
+         padding: 20px;
+         position: top;              /*Position oben*/
+         margin-left: 20%;
+         margin-right: 10%;           /*Mit diesen beiden habe ich den Abstand zu den seiten rändern links und rechts angegeben*/
+}

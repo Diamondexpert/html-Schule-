@@ -1,0 +1,46 @@
+h1 {
+         background-color: grey;              /*Hintergrundfarbe der Überschrift*/
+         color: white;                           /*Schriftfarbe der Überschrift*/
+         box-shadow: 10px 20px 15px silver;     /*box-shadow bestimmt den Schatten unter und rechts von meinen Texten und überschriften*/
+         border-radius: 10px;                   /*border-radius ist für den Radius der abgerundetetn Ecken im Text-Hintergrund*/
+         width: 50%;                            /*Die Breite der Überschrift*/
+         position: fixed;                       /*Mit position: fixed habe ich die Überschrift fixiert, damit sie immer zusehen ist*/
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+#zweitens, #drittens, #viertens, #fünf, #sechs, #Text {   /*Die # sind meine Gruppen, für die einzelnen Informations Abschnitte*/
+         font-size: 130%;     /*Schriftgröße*/
+         font-family: Corbel;  /*Schriftart*/
+         padding: 20px;
+         background-color: #d6d6d6;   /*Hier habe ich die Hintergrundfarbe für meine Texte eingestellt*/
+         color: black;       /*Schwarze schriftfarbe eingestellt*/
+         width: 60%;               /*Die breite des Textes eingestellt*/
+         box-shadow: 10px 20px 15px silver;  /*Hier habe ich die Hintergründe für alle Text bereiche erstellt und Schatierungen und abgerundete Ecken hinzugefügt*/
+         border-radius: 10px;
+         margin-left: 20%          /*Der Abstand zur linken seite der Texte*/
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+ol     {
+         padding:20px;
+         margin-left: 15%;
+         font-size: 130%;
+         background-color: #d6d6d6;
+         width: 40%;
+         box-shadow: 10px 20px 15px silver;
+         border-radius: px;
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+#inhalt {
+/*Ich hatte das Problem, dass das Inhaltsverzeichnis so formatiert war, wie die anderen Texte,
+desshalb musste ich eine Gruppe nur für das Inhaltsverzeichnis erstellen und alles anpassen*/
+        font-size: 110%;            /*Größe der Schrift im Inhaltsverzeichnis*/
+        background-color: #d6d6d6;
+        width: 12%;                                      /*Hier ist die css zum Inhaltsverzeichnis. Mit dem Schatten und abgerundete Ecken*/
+        height: 40%;
+        box-shadow: 10px 20px 15px silver;   /*Wieder meine Schattierungen und abgerundete Ecken*/
+        border-radius: 10px;
+        padding: 1%;
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+#inhalt a {
+        text-decoration: none;     /*Dort hab ich den Unterstrich bei den Links rausgenommen*/
+}
